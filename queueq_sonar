@@ -1,0 +1,14 @@
+sonar.projectKey=pcl-qcloud-queueq 
+sonar.projectName=pcl-qcloud-queueq 
+sonar.projectVersion=1.0
+sonar.sources=./
+sonar.language=py
+sonar.sourceEncoding=UTF-8
+#sonar.tests=./tests
+#sonar.test.inclusions=**/*Test*/**
+sonar.exclusions=**/*Test*/**
+sonar.exclusions=./static
+sonar.exclusions=./script
+sonar.exclusions=./tests
+sonar.python.file.suffixes=py
+sonar.python.coverage.reportPath=./tests/coverage.xml
