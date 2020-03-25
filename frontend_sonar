@@ -1,0 +1,15 @@
+sonar.projectKey=pcl-qcloud-frontend
+sonar.projectName=pcl-qcloud-frontend
+sonar.projectVersion=1.0
+sonar.language=js,html
+sonar.exclusions=**/*node_modules*/**
+sonar.javascript.exclusions=**/*node_modules*/**
+sonar.javascript.lcov.reportPaths=./coverage/lcov-report/index.html
+sonar.projectVersion=1.0
+sonar.sourceEncoding=UTF-8
+sonar.sources=src
+sonar.tests=tests
+sonar.exclusions=test/**,node_modules/**,build/**,**/less/**,**/config/**,**/config.js,**/imgs/** 
+#sonar.test.inclusions=test/shared/*.js,test/components/**/*.js 
+sonar.javascript.lcov.reportPaths=coverage/lcov.info 
+#sonar.testExecutionReportPaths=coverage/test-report.html
